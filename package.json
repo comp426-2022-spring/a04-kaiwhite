@@ -1,5 +1,26 @@
 {
+  "name": "a04-kaiwhite",
+  "version": "1.0.0",
+  "description": "a04 Logs and Databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a04-kaiwhite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a04-kaiwhite/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a04-kaiwhite#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "better-sqlite3": "^7.5.1",
+    "curl": "^0.1.4",
+    "express": "^4.17.3",
+    "minimist": "^1.2.6",
+    "morgan": "^1.10.0"
   }
 }
